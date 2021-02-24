@@ -1,5 +1,7 @@
 package Condicionales;
 
+import java.util.Scanner;
+
 public class CondicionIf {
 	public static void main(String[] args) {
 		int n1=11;
@@ -9,6 +11,12 @@ public class CondicionIf {
 		}else {
 			System.out.println("es impar");
 		}
+		
+		//
+		Scanner nombre = new Scanner(System.in);
+		System.out.println("Escribe tu nombre:");
+		String cadena1= nombre.nextLine();
+		System.out.println("Tu nombre es: "+ cadena1);
 				
 	}
 }
